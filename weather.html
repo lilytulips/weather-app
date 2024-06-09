@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h5 style="text-align: left; margin: 0px;">Weather App</h5>
+            <h5 id="welcomeMessage" style="text-align: right; margin: 0px;"><i><i style="padding-right: 7px;" class="fas fa-home"></i>Welcome, there!</i></h5>
+            
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="location">
+                <h2>Location</h2>
+                <p id="location"></p>
+            </section>
+            <section class="current-weather">
+                <h2>Current Weather</h2>
+                <div id="weather-icon"></div>
+                <p id="temperature"></p>
+                <p id="conditions"></p>
+            </section>
+            <section class="forecast">
+                <h2>Forecast</h2>
+                <!-- Forecast data will be displayed here -->
+            </section>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
